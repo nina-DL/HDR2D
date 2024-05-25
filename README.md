@@ -2,7 +2,7 @@
 
 The R package **HDR2D** provides a framework for estimating highest-density regions in two dimensions. It uses different measures, including kernel density estimation and some generalized approaches based on neaighborhood measures. 
 
-The package implements the measures described in the following paper: [Nina Deliu and Brunero Liseo. "Alternative Approaches for Estimating Highest-Density Regions". arXiv preprint arXiv:2401.00245 (2023)](https://arxiv.org/abs/2401.00245)
+The package implements the measures described in the following manuscript: [Nina Deliu and Brunero Liseo. "Alternative Approaches for Estimating Highest-Density Regions". arXiv preprint arXiv:2401.00245 (2023)](https://arxiv.org/abs/2401.00245)
 
 
 ## Installation
