@@ -1,0 +1,25 @@
+Package: HDR2D
+Type: Package
+Title: Alternative Approaches for Estimating Highest-Density Regions
+Version: 0.1.0
+Authors@R: c(
+  person("Nina","Deliu", email = "deliunina@gmail.com", role = c("cre", "aut")),
+  person("Brunero", "Liseo", email = "brunero.liseo@uniroma1.it", role = "aut"))
+Description: This package is based on the paper "Alternative Approaches for Estimating Highest-Density Regions" (https://arxiv.org/abs/2401.00245)
+Encoding: UTF-8
+LazyData: true
+License: This package is free and open source software, licensed under GPL 3.
+RoxygenNote: 7.3.0
+Imports:
+    ks,
+    kde1d,
+    kdecopula,
+    copula,
+    MASS,
+    mclust,
+    KScorrect,
+    VineCopula,
+    VC2copula,
+    copula,
+    mltools,
+    data.table
