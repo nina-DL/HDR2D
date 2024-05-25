@@ -16,7 +16,7 @@ devtools::install_github("nina-DL/HDR2D")
 
 ## Example
 
-This is a basic example that shows you the use the main function **HDR.2d()**.
+This is a basic example that shows the use of the main function **HDR.2d()**.
 
 ```{r example}
 library(HDR2D)
