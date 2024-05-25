@@ -25,13 +25,14 @@ library(HDR2D)
 R = matrix(c(1, 0.5, 0.5, 1), nrow = 2, ncol = 2, byrow = TRUE)
 draws_2d = MASS::mvrnorm(n = 1000, mu = c(0, 0), Sigma = R)
 
-# Estimate the HDR with KDE
-HDR.2d(sn = draws_2d, measure = "KDE", coverage_prob = 0.95, build_plot = T)
+# Estimate a 95% HDR with KDE
+HDR.2d(sn = draws_2d, measure = "KDE", coverage_prob = 0.95, build_plot = T, cex = 0.7, pch = 10)
 
-# Estimate the HDR with KNN
-HDR.2d(sn = draws_2d, measure = "KNN", coverage_prob = 0.95, build_plot = T)
+# Estimate a 95% HDR with KNN
+HDR.2d(sn = draws_2d, measure = "KNN", coverage_prob = 0.95, build_plot = T, cex = 0.7, pch = 10)
 
-# Estimate the HDR with Nonparametric CDF Copula
-HDR.2d(sn = draws_2d, measure = "CDF.NPCop", coverage_prob = 0.95, build_plot = T)
+# Estimate a 95% HDR with Nonparametric CDF Copula
+HDR.2d(sn = draws_2d, measure = "CDF.NPCop", coverage_prob = 0.95, build_plot = T, cex = 0.7, pch = 10)
+
 
 ```
