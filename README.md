@@ -2,7 +2,7 @@
 
 The R package **HDR2D** provides a framework for estimating highest-density regions in two dimensions. It uses different measures, including kernel density estimation and some generalized approaches based on neaighborhood measures. 
 
-Specifically, the package implements the measures described in the following paper: [Nina Deliu and Brunero Liseo. "Alternative Approaches for Estimating Highest-Density Regions". arXiv preprint arXiv:2401.00245 (2023)](https://arxiv.org/abs/2401.00245)
+The package implements the measures described in the following paper: [Nina Deliu and Brunero Liseo. "Alternative Approaches for Estimating Highest-Density Regions". arXiv preprint arXiv:2401.00245 (2023)](https://arxiv.org/abs/2401.00245)
 
 
 ## Installation
@@ -16,7 +16,7 @@ devtools::install_github("nina-DL/HDR2D")
 
 ## Example
 
-This is a basic example which shows you how to use the main function **HDR.2d()**.
+This is a basic example that shows you the use the main function **HDR.2d()**.
 
 ```{r example}
 library(HDR2D)
