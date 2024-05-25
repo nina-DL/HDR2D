@@ -1,4 +1,4 @@
-# HDR2D: Alternative Approaches for Computing Highest-Density Regions
+# HDR2D: Alternative Approaches for Estimating Highest-Density Regions
 
 The R package **HDR2D** provides a framework for estimating highest-density regions in two dimensions. It uses different measures, including kernel density estimation and some generalized approaches based on neaighborhood measures. 
 
